@@ -10,14 +10,14 @@ public class App {
 		try 
 		{		
 			str = "Irgend eine Zeichenkette";
-			System.out.println("Stringlänge :" + str.length());
+			System.out.println("Stringlï¿½nge :" + str.length());
 			
 			//ch = str.charAt(200);
 			//System.out.println("Character :" + ch);	
 		} 
 		catch (StringIndexOutOfBoundsException e) {
 			// Fehlerbehandlung ...
-			System.out.println("Index Fehler, bitte Eingabe prüfen!");		
+			System.out.println("Index Fehler, bitte Eingabe prï¿½fen!");		
 		}
 		catch (Exception e) {
 			// Weitere Fehler-Routinen ....
